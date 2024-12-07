@@ -102,6 +102,8 @@ Write-Host "   7. Upgrade Specific Programs" -ForegroundColor Green
 Write-Host " "
 Write-Host "  10. Info About Powershell Module -PSWindowsUpdate" -ForegroundColor Green
 Write-Host "  11. Info About Winget" -ForegroundColor Green
+Write-Host " "
+Write-Host "  99 . Exit"  -ForegroundColor Green
 
 Write-Host " "
 Write-Host " "
@@ -118,6 +120,7 @@ switch ($x) {
     7 {WingetupgradeSpec}
     10 {PSWindowsUpdate}
     11 {Winget}
+    99 {Exit}
 }
 
     
